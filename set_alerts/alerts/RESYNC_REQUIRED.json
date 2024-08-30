@@ -1,0 +1,13 @@
+{
+    "eventTypeName" : "RESYNC_REQUIRED",
+    "forAllGroups": true,
+    "enabled" : true,
+    "notifications": [
+        {
+            "delayMin": 0,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

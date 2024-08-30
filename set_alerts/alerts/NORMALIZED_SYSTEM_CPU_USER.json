@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "forAllGroups": true,
+    "metricThreshold": {
+        "metricName": "NORMALIZED_SYSTEM_CPU_USER",
+        "mode": "AVERAGE",
+        "operator": "GREATER_THAN",
+        "threshold": 80.0,
+        "units": "RAW"
+    },
+    "notifications": [
+        {
+            "delayMin": 5,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

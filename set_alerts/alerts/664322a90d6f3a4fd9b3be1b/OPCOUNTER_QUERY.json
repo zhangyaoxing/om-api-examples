@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "metricThreshold": {
+        "metricName": "OPCOUNTER_QUERY",
+        "mode": "AVERAGE",
+        "operator": "GREATER_THAN",
+        "threshold": 1000.0,
+        "units": "RAW"
+    },
+    "notifications": [
+        {
+            "delayMin": 0,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "forAllGroups": true,
+    "metricThreshold": {
+        "metricName": "OPLOG_MASTER_TIME",
+        "mode": "AVERAGE",
+        "operator": "LESS_THAN",
+        "threshold": 48.0,
+        "units": "HOURS"
+    },
+    "notifications": [
+        {
+            "delayMin": 30,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "forAllGroups": true,
+    "metricThreshold": {
+        "metricName": "TICKETS_AVAILABLE_READS",
+        "mode": "AVERAGE",
+        "operator": "LESS_THAN",
+        "threshold": 100.0,
+        "units": "RAW"
+    },
+    "notifications": [
+        {
+            "delayMin": 1,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

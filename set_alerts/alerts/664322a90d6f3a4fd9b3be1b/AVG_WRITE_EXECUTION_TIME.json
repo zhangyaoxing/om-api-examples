@@ -1,0 +1,17 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "metricThreshold": {
+        "metricName": "AVG_WRITE_EXECUTION_TIME",
+        "mode": "AVERAGE",
+        "operator": "GREATER_THAN",
+        "threshold": 150.0,
+        "units": "MILLISECONDS"
+    },
+    "notifications": [{
+        "delayMin": 1,
+        "emailAddress": "yaoxing.zhang@mongodb.com",
+        "intervalMin": 60,
+        "typeName": "EMAIL"
+    }]
+}

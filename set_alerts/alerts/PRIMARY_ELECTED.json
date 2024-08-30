@@ -1,0 +1,13 @@
+{
+	"enabled": true,
+	"eventTypeName": "PRIMARY_ELECTED",
+    "forAllGroups": true,
+	"notifications": [
+        {
+            "delayMin": 0,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

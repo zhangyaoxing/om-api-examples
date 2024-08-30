@@ -1,0 +1,13 @@
+{
+    "enabled": true,
+    "eventTypeName": "HOST_DOWN",
+    "forAllGroups": true,
+    "notifications": [
+        {
+            "delayMin": 1,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

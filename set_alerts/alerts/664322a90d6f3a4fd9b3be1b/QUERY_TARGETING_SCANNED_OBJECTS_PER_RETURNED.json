@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "metricThreshold": {
+        "metricName": "QUERY_TARGETING_SCANNED_OBJECTS_PER_RETURNED",
+        "mode": "AVERAGE",
+        "operator": "GREATER_THAN",
+        "threshold": 1000.0,
+        "units": "RAW"
+    },
+    "notifications": [
+        {
+            "delayMin": 1,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}

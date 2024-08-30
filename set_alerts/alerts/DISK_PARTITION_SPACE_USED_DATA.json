@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "eventTypeName": "OUTSIDE_METRIC_THRESHOLD",
+    "forAllGroups": true,
+    "metricThreshold": {
+        "metricName": "DISK_PARTITION_SPACE_USED_DATA",
+        "mode": "AVERAGE",
+        "operator": "GREATER_THAN",
+        "threshold": 70.0,
+        "units": "RAW"
+    },
+    "notifications": [
+        {
+            "delayMin": 1,
+            "emailAddress": "yaoxing.zhang@mongodb.com",
+            "intervalMin": 60,
+            "typeName": "EMAIL"
+        }
+    ]
+}
